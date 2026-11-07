@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+int a,b;
+scanf("%d%d",&a,&b);
+printf("arithmethic operators");
+printf("%d",a+b);
+printf("%d",a-b);
+printf("%d",a/b);
+printf("%d",a*b);
+printf("%d",a%b);
+printf("relational operator");
+printf("%d",a==b);
+printf("%d",a>=b);
+printf("%d",a<=b);
+printf("%d",a!=b);
+printf("logical operator");
+printf("%d",(a>b)&&(a<b));
+printf("%d",(a>b)||(a<b));
+printf("%d",!(a<b));
+printf("assigment operator");
+printf("%d",a+=b);
+printf("%d",a-=b);
+printf("%d",a*=b);
+printf("%d",a/=b);
+printf("%d",a%=b);
+printf("increment/decrement");
+printf("%d",++a);
+printf("%d",--a);
+printf("ternary");
+(a>b)?printf("hi"):printf("hola");
+return 0;
+}
